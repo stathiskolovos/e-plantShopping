@@ -249,7 +249,8 @@ const handlePlantsClick = (e) => {
     setShowCart(false);
   };
 
-
+ 
+  // state managment hook
   const [addedToCart, setAddedToCart] = useState({});
 
   const handleAddToCart = (plant) => {
