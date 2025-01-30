@@ -313,7 +313,11 @@ const handlePlantsClick = (e) => {
                                 <img className="product-image" src={plant.image}/>
                                 <div className="product-price">{plant.cost}</div>
                                 <p>{plant.description}</p>
-                                <button className="product-button" onClick={() => handleAddToCart(plant)}>Add to Cart</button>
+                                {cart.items.some(item => item.name === plant.name) ? (
+                                    <button className="product-button added-to-cart">Added to Cart</button>
+                                ) : (
+                                    <button className="product-button" onClick={() => handleAddToCart(plant)}>Add to Cart</button>
+                                )}
                             </div>
                         ))}
                     </div>
