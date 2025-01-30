@@ -1,5 +1,7 @@
 # Final Project: Paradise Nursery Shopping Application
 
+app is hosted here: https://stathiskolovos.github.io/e-plantShopping/
+
 For your final project, you will create the front end of a "Paradise Nursery" shopping application. The application interface will allow you to browse a variety of houseplants and add them to a shopping cart. The shopping cart feature lets you see all your items and their total cost. Your shopping cart should also allow you to adjust the number of items in the cart before checkout.
 
 Completing the practice project will help you with the final project. We designed it so that many of the components, code, and skills for that project can be transferred to this peer-reviewed project with some updates.
